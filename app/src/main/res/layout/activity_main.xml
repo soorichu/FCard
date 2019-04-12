@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="co.soori.wordflash.MainActivity"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/english"
+        android:layout_width="match_parent"
+        android:layout_height="600px"
+        android:text="English"
+        android:textSize="180px"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/korean"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:text="Korean"
+        android:textSize="70px"
+        android:background="#eeeeee"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_marginTop="50px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <Button
+            android:id="@+id/memorized"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="외움"
+            android:background="@color/colorAccent"
+            android:layout_marginRight="20px"
+            />
+        <ImageButton
+            android:id="@+id/card_open"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:background="#ffffff"
+            android:src="@mipmap/ic_fcard_icon"/>
+        <Button
+            android:id="@+id/before"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이전"
+            android:layout_marginLeft="20px"
+            android:background="@color/colorPrimary"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>
