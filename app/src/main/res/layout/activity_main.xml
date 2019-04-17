@@ -11,21 +11,21 @@
     <TextView
         android:id="@+id/english"
         android:layout_width="match_parent"
-        android:layout_height="600px"
+        android:layout_height="300dp"
         android:text="English"
-        android:textSize="180px"
+        android:textSize="100dp"
         android:gravity="center" />
     <TextView
         android:id="@+id/korean"
         android:layout_width="match_parent"
-        android:layout_height="120px"
+        android:layout_height="100dp"
         android:text="Korean"
-        android:textSize="70px"
+        android:textSize="30dp"
         android:background="#eeeeee"
         android:gravity="center"/>
 
     <LinearLayout
-        android:layout_marginTop="50px"
+        android:layout_marginTop="50dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:text="외움"
             android:background="@color/colorAccent"
-            android:layout_marginRight="20px"
+            android:layout_marginRight="20dp"
             />
         <ImageButton
             android:id="@+id/card_open"
@@ -52,7 +52,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="이전"
-            android:layout_marginLeft="20px"
+            android:layout_marginLeft="20dp"
             android:background="@color/colorPrimary"
             />
     </LinearLayout>
